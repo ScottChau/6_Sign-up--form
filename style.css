@@ -2,35 +2,63 @@ html,
 body {
   height: 100%;
   margin: 0;
+  font-family: sans-serif, "Times New Roman", Times, serif;
 }
 
 .container {
   display: flex;
-  background-color: aliceblue;
+
   height: 100%;
 }
 
 .left {
   background-color: red;
-
-  width: 30%;
+  height: 100%;
+  width: 35%;
 }
 .right {
-  background-color: aqua;
-
-  width: 70%;
+  width: 65%;
 }
 .top {
-  height: 25%;
-  background-color: black;
+  height: 30%;
+  background-color: white;
+}
+
+.top p {
+  margin: 0;
+  padding: 100px 20% 20px 30px;
 }
 
 .middle {
-  height: 50%;
-  background-color: blue;
+  height: 40%;
+  background-color: #c7b53a;
+}
+
+.middle h4 {
+  padding: 20px 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100px;
+}
+
+.grid input {
+  margin: 5px 30px;
+
+  width: 200px;
+}
+
+.grid label {
+  margin-left: 30px;
 }
 
 .bottom {
-  height: 25%;
-  background-color: green;
+  padding: 10px 30px 0px 30px;
+}
+
+.bottom button {
+  border-radius: 5px;
+  padding: 5px;
 }
