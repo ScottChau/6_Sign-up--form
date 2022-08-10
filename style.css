@@ -24,16 +24,18 @@ body {
 .top {
   height: 30%;
   background-color: #93e7fb;
+  overflow: auto;
 }
 
 .top p {
   margin: 0;
-  padding: 80px 30vw 20px 30px;
+  padding: 60px 30vw 20px 30px;
 }
 
 .middle {
   height: 40%;
   background-color: #c0f6fb;
+  overflow: auto;
 }
 
 .middle h4 {
@@ -65,3 +67,11 @@ body {
   border-radius: 5px;
   padding: 5px;
 }
+
+input:focus {
+  box-shadow: 3px 3px 3px 1px #888888;
+}
+
+/* input[type="password"]:focus {
+  border-color: 4px red;
+} */
