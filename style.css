@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background-color: aliceblue;
+  height: 100%;
+}
+
+.left {
+  background-color: red;
+
+  width: 30%;
+}
+.right {
+  background-color: aqua;
+
+  width: 70%;
+}
+.top {
+  height: 25%;
+  background-color: black;
+}
+
+.middle {
+  height: 50%;
+  background-color: blue;
+}
+
+.bottom {
+  height: 25%;
+  background-color: green;
+}
