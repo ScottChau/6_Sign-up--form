@@ -1,1 +1,1 @@
-# 6_Sign-up--form
+# 6_Sign-up-form
