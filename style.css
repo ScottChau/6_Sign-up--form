@@ -5,6 +5,10 @@ body {
   font-family: sans-serif, "Times New Roman", Times, serif;
 }
 
+form {
+  display: contents;
+}
+
 .container {
   display: flex;
 
@@ -72,6 +76,10 @@ input:focus {
   box-shadow: 3px 3px 3px 1px #888888;
 }
 
-/* input[type="password"]:focus {
-  border-color: 4px red;
-} */
+input[type="password"]:invalid {
+  border: 2px solid red;
+}
+
+input[type="password"]:valid {
+  border: 2px solid green;
+}

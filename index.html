@@ -8,39 +8,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="left"></div>
-      <div class="right">
-        <div class="top">
-          <p>
-            This is not a real online service! You know you need something like
-            this in your life to help to realize your deepest dreams.
-            <br />Sign up now to get started. <br /><br />
-            You know you want to.
-          </p>
-        </div>
-        <div class="middle">
-          <h4>Let's do this!</h4>
-          <div class="grid">
-            <label for="firstName">FIRST NAME</label>
-            <label for="lastName">LAST NAME</label>
-            <input type="text" id="firstName" />
-            <input type="text" id="lastName" />
-            <label for="email">EMAIL</label>
-            <label for="phoneNumber">PHONE NUMBER</label>
-            <input type="email" id="email" />
-            <input type="text" id="phoneNumber" />
-            <label for="password">PASSWORD</label>
-            <label for="confirmPassword">CONFIRM PASSWORD</label>
-            <input type="password" id="password" title="YOYO" />
-            <input type="password" id="confirmPassword" />
+    <form action="#" method="get">
+      <div class="container">
+        <div class="left"></div>
+        <div class="right">
+          <div class="top">
+            <p>
+              This is not a real online service! You know you need something
+              like this in your life to help to realize your deepest dreams.
+              <br />Sign up now to get started. <br /><br />
+              You know you want to.
+            </p>
+          </div>
+          <div class="middle">
+            <h4>Let's do this!</h4>
+            <div class="grid">
+              <label for="firstName">FIRST NAME</label>
+              <label for="lastName">LAST NAME</label>
+              <input type="text" id="firstName" />
+              <input type="text" id="lastName" />
+              <label for="email">EMAIL</label>
+              <label for="phoneNumber">PHONE NUMBER</label>
+              <input type="email" id="email" />
+              <input type="text" id="phoneNumber" />
+              <label for="password">PASSWORD</label>
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="password"
+                minlength="8"
+                title="Please enter"
+                minlength="8"
+              />
+              <input
+                type="password"
+                id="confirmPassword"
+                minlength="8"
+                name="confirmPassword"
+              />
+            </div>
+          </div>
+          <div class="bottom">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? Log in</p>
           </div>
         </div>
-        <div class="bottom">
-          <button>Create Account</button>
-          <p>Already have an account? Log in</p>
-        </div>
       </div>
-    </div>
+    </form>
   </body>
 </html>
